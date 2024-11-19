@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+img {
+  position: fixed; /* Измените с absolute на fixed */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Используйте vw для ширины */
+  height: 100vh; /* Используйте vh для высоты */
+  object-fit: cover; /* Обеспечивает правильное отображение GIF */
+}
+
+.hidden {
+  display: none;
+}
